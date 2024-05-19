@@ -23,7 +23,7 @@ class Program
             Console.WriteLine("Your entry: ");
             string text = Console.ReadLine();
             Entry entry = new Entry {_date=date, _promptText = prompt, _entryText = text};
-            Journal.AddEntry(Entry entry);
+            Journal.AddEntry(entry);
         }
 
         if (choice == 2)
